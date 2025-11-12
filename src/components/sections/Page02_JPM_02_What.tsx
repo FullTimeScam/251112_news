@@ -40,7 +40,7 @@ const Page02_JPM_02_What = () => {
           {/* 이미지 섹션 (SVG -> IMG 태그로 변경 및 Modal 적용) */}
           <div className="flex justify-center items-center">
             <img
-              src="public/img/JPM_token.png" // public 폴더의 이미지 경로
+              src="/img/JPM_token.png" // public 폴더의 이미지 경로
               alt="JPM Coin Token"
               className="rounded-lg shadow-2xl object-contain max-h-[400px] cursor-pointer"
               onClick={() => openModal('/JPM_token.png')}

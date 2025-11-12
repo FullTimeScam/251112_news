@@ -23,7 +23,7 @@ const Page03_GOOG_02_What = () => {
           {/* 이미지 섹션 (SVG -> IMG 태그로 변경 및 Modal 적용) */}
           <div className="flex justify-center items-center">
             <img
-              src="public/img/googleXPoly.png" // public 폴더의 이미지 경로
+              src="/img/googleXPoly.png" // public 폴더의 이미지 경로
               alt="Google Polymarket Integration"
               className="rounded-lg shadow-2xl object-contain max-h-[400px] cursor-pointer"
               onClick={() => openModal('/googleXPoly.png')}
