@@ -38,7 +38,7 @@ const Page05_GOV_02_What = () => {
           {/* 이미지 섹션 (SVG -> IMG 태그로 변경 및 Modal 적용) */}
           <div className="flex justify-center items-center">
             <img
-              src="public\img\USshutdown.png" // public 폴더의 이미지 경로
+              src="public/img/USshutdown.png" // public 폴더의 이미지 경로
               alt="US Government Shutdown"
               className="rounded-lg shadow-2xl object-contain max-h-[400px] cursor-pointer"
               onClick={() => openModal('/USshutdown.png')}
